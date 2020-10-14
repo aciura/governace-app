@@ -1,14 +1,40 @@
 .votes {
   text-align: left;
-  border: 1px solid grey;
-  padding: 0.5rem 1rem;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .pieChart {
-  box-sizing: border-box;
-  padding: 10px;
-  width: 400px;
-  height: 400px;
-  border: 1px solid greenyellow;
+  width: 300px;
+  height: 300px;
+  /* border: 1px solid greenyellow; */
+}
+
+.modal {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: auto;
+  background-color: #030c2d;
+  color: white;
+  border: none;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.modal svg {
+  margin: 0;
+}
+
+.modal a {
+  text-decoration: underline;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #314c7b99;
 }

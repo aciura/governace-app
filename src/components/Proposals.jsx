@@ -8,11 +8,11 @@ const Proposals = ({ proposals }) => {
       <ul>
         {proposals &&
           proposals.map((proposal) => (
-            <li key={proposal.id} className={styles[proposal.status]}>
-              <Link to={`/proposal/${proposal.id}`}>
+            <Link key={proposal.id} to={`/proposal/${proposal.id}`}>
+              <li className={styles[proposal.status]}>
                 Proposal #{proposal.id} status: {proposal.status}
-              </Link>
-            </li>
+              </li>
+            </Link>
           ))}
       </ul>
     </div>

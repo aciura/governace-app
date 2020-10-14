@@ -1,21 +1,32 @@
 html {
-  height: 100%;
   box-sizing: border-box;
   background: url('./assets/Capitol-1920px-sky.jpg') no-repeat bottom center
     fixed;
   background-size: cover;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@media screen and (max-width: 480px) {
+  html,
+  body {
+    min-width: 320px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  height: 100%;
-  box-sizing: border-box;
 }
 
 code {

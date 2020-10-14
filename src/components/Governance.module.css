@@ -9,19 +9,35 @@
   height: 100%;
 }
 
+.header {
+  padding: 0.5rem;
+  background-color: #000311;
+}
+
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .goverananceTable {
   margin: 1rem;
   border-right: 2px solid grey;
-  padding: 0 0rem 1rem 0;
+  padding: 0;
   min-width: 12rem;
+
+  display: none; /* do not show on mobile */
 }
 
-.header {
-  padding: 1rem;
-  background-color: #000311;
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .main {
+    flex-direction: row;
+  }
+
+  .goverananceTable {
+    display: block;
+  }
 }

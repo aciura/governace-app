@@ -30,15 +30,24 @@ const proposalsQuery = `{
     id
     status
     description
+    proposer {
+      id
+    }
     votes(
-      where: {votes_gt: 1}
+      where: {votes_gt: 1},
+      orderBy: votes,
+      orderDirection: desc
     ) {
       id
       support
       votes
+      voter {
+        id
+      }
     }
   }
-}`
+}
+`
 
 const getGovernanceData = async () => {
   try {

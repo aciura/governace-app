@@ -46,22 +46,24 @@ const Governance = () => {
         {governance && (
           <div className={styles.goverananceTable}>
             <table>
-              <tr>
-                <td>Token Holders:</td>
-                <td>{governance.currentTokenHolders}</td>
-              </tr>
-              <tr>
-                <td>Delegates:</td>
-                <td>{governance.currentDelegates}</td>
-              </tr>
-              <tr>
-                <td>Proposals:</td>
-                <td>{governance.proposals}</td>
-              </tr>
-              <tr>
-                <td>Proposal Queued:</td>
-                <td>{governance.proposalsQueued}</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>Token Holders:</td>
+                  <td>{governance.currentTokenHolders}</td>
+                </tr>
+                <tr>
+                  <td>Delegates:</td>
+                  <td>{governance.currentDelegates}</td>
+                </tr>
+                <tr>
+                  <td>Proposals:</td>
+                  <td>{governance.proposals}</td>
+                </tr>
+                <tr>
+                  <td>Proposal Queued:</td>
+                  <td>{governance.proposalsQueued}</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         )}
