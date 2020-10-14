@@ -1,0 +1,19 @@
+.proposal {
+  background-color: greenyellow;
+  border: 1px solid red;
+}
+
+.votes {
+  text-align: left;
+  border: 1px solid grey;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}
+
+.pieChart {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  background-color: greenyellow;
+}
