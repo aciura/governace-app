@@ -1,10 +1,8 @@
-# Loopring (LRCv2) Staking UI
+# Governance app
 
-![Loopring Staking UI](https://raw.githubusercontent.com/aciura/loopring-staking/master/screenshot.png 'Screenshot for Loopring Staking UI')
+![Governance App](https://raw.githubusercontent.com/aciura/governance-app/main/screenshot.jpeg 'Screenshot of the Governance App')
 
-### Check out this project live on github pages https://aciura.github.io/loopring-staking/
-
-Project requires MetaMask browser extension!
+### Check out this project live on github pages https://aciura.github.io/governance-app/
 
 ### Checkout out my blog at https://cloudtech.pl
 
@@ -14,9 +12,7 @@ Project is written in latest React JS using Hooks.
 
 Uses:
 
-- [Web3](https://github.com/ethereum/web3.js/)
-- [SCSS](https://sass-lang.com/)
-- Neumorphism generator https://neumorphism.io/
+- [TheGraph](https://thegraph.com/explorer/subgraph/powerpool-finance/powerpool-governance)
 
 ### `npm start`
 
