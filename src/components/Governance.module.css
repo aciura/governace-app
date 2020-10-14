@@ -1,7 +1,27 @@
 .governance {
-  background-color: aqua;
-  border: 1px solid blue;
+  background-color: transparent;
+  /* border: 1px solid blue; */
 
   display: flex;
   flex-direction: column;
+
+  text-align: left;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.goverananceTable {
+  margin: 1rem;
+  border-right: 2px solid grey;
+  padding: 0 0rem 1rem 0;
+  min-width: 12rem;
+}
+
+.header {
+  padding: 1rem;
+  background-color: #000311;
 }

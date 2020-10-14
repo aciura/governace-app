@@ -1,19 +1,11 @@
 .proposal {
-  background-color: greenyellow;
+  background-color: #030c2daa; /* a bit transparent */
   border: 1px solid red;
-}
-
-.votes {
   text-align: left;
-  border: 1px solid grey;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   margin: 1rem;
 }
 
-.pieChart {
-  box-sizing: border-box;
-  padding: 10px;
-  width: 400px;
-  height: 400px;
-  background-color: greenyellow;
+.main {
+  display: flex;
 }

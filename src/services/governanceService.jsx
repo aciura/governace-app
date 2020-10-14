@@ -44,7 +44,7 @@ const getGovernanceData = async () => {
   try {
     const result = await axios.post(graphUrl, { query: goveranceQuery })
     console.log('getGovernanceData', result)
-    return result.data.data
+    return result.data.data.governances[0]
   } catch (error) {
     console.error(error)
     return {}

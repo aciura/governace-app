@@ -1,0 +1,18 @@
+.proposals li {
+  list-style: none;
+  background-color: #030c2d;
+  margin: 0 0 0.5rem 0;
+  padding: 1rem;
+}
+
+.proposals li:hover {
+  background-color: #000311;
+}
+
+.proposals li.ACTIVE {
+  background-color: #0b1e56;
+}
+
+.proposals li.EXECUTED {
+  background-color: darkgray;
+}
