@@ -1,6 +1,6 @@
 # Governance app
 
-![Governance App](https://raw.githubusercontent.com/aciura/governance-app/main/screenshot.jpeg 'Screenshot of the Governance App')
+![Governance App](https://raw.githubusercontent.com/aciura/governance-app/main/screenshot.jpg 'Screenshot of the Governance App')
 
 ### Check out this project live on github pages https://aciura.github.io/governance-app/
 
@@ -12,7 +12,8 @@ Project is written in latest React JS using Hooks.
 
 Uses:
 
-- [TheGraph](https://thegraph.com/explorer/subgraph/powerpool-finance/powerpool-governance)
+PowerPool Governance subgraph
+[TheGraph](https://thegraph.com/explorer/subgraph/powerpool-finance/powerpool-governance)
 
 ### `npm start`
 
