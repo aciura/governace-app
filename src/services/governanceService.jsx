@@ -52,7 +52,7 @@ const proposalsQuery = `{
 const getGovernanceData = async () => {
   try {
     const result = await axios.post(graphUrl, { query: goveranceQuery })
-    console.log('getGovernanceData', result)
+    // console.log('getGovernanceData', result)
     return result.data.data.governances[0]
   } catch (error) {
     console.error(error)
@@ -63,8 +63,8 @@ const getGovernanceData = async () => {
 const getTokenHolders = async () => {
   try {
     const result = await axios.post(graphUrl, { query: tokenHoldersQuery })
-    console.log('tokenHoldersQuery', result)
-    return result.data.data
+    // console.log('tokenHoldersQuery', result)
+    return result.data.data.tokenHolders
   } catch (error) {
     console.error(error)
     return {}
@@ -74,7 +74,7 @@ const getTokenHolders = async () => {
 const getProposals = async () => {
   try {
     const result = await axios.post(graphUrl, { query: proposalsQuery })
-    console.log('getProposals', result)
+    // console.log('getProposals', result)
     return result.data.data.proposals
   } catch (error) {
     console.error(error)
