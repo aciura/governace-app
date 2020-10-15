@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/governace-app/static/css/main.d28deb60.chunk.css",
-    "main.js": "/governace-app/static/js/main.da7920be.chunk.js",
-    "main.js.map": "/governace-app/static/js/main.da7920be.chunk.js.map",
+    "main.js": "/governace-app/static/js/main.a2b5b0fe.chunk.js",
+    "main.js.map": "/governace-app/static/js/main.a2b5b0fe.chunk.js.map",
     "runtime-main.js": "/governace-app/static/js/runtime-main.92ae714c.js",
     "runtime-main.js.map": "/governace-app/static/js/runtime-main.92ae714c.js.map",
-    "static/js/2.637b86c0.chunk.js": "/governace-app/static/js/2.637b86c0.chunk.js",
-    "static/js/2.637b86c0.chunk.js.map": "/governace-app/static/js/2.637b86c0.chunk.js.map",
+    "static/js/2.c6f71547.chunk.js": "/governace-app/static/js/2.c6f71547.chunk.js",
+    "static/js/2.c6f71547.chunk.js.map": "/governace-app/static/js/2.c6f71547.chunk.js.map",
     "index.html": "/governace-app/index.html",
-    "precache-manifest.89619e4f0b894125fa6fb77aee2c3410.js": "/governace-app/precache-manifest.89619e4f0b894125fa6fb77aee2c3410.js",
+    "precache-manifest.c2c0cad7a661490e5ac3a8611da502a2.js": "/governace-app/precache-manifest.c2c0cad7a661490e5ac3a8611da502a2.js",
     "service-worker.js": "/governace-app/service-worker.js",
     "static/css/main.d28deb60.chunk.css.map": "/governace-app/static/css/main.d28deb60.chunk.css.map",
-    "static/js/2.637b86c0.chunk.js.LICENSE.txt": "/governace-app/static/js/2.637b86c0.chunk.js.LICENSE.txt",
+    "static/js/2.c6f71547.chunk.js.LICENSE.txt": "/governace-app/static/js/2.c6f71547.chunk.js.LICENSE.txt",
     "static/media/index.css": "/governace-app/static/media/Capitol-1920px-sky.bc22a0cb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.92ae714c.js",
-    "static/js/2.637b86c0.chunk.js",
+    "static/js/2.c6f71547.chunk.js",
     "static/css/main.d28deb60.chunk.css",
-    "static/js/main.da7920be.chunk.js"
+    "static/js/main.a2b5b0fe.chunk.js"
   ]
 }

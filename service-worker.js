@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/governace-app/precache-manifest.89619e4f0b894125fa6fb77aee2c3410.js"
+  "/governace-app/precache-manifest.c2c0cad7a661490e5ac3a8611da502a2.js"
 );
 
 self.addEventListener('message', (event) => {

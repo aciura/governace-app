@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0f3f4fbec8a79ff4b8982667b1b0393",
+    "revision": "ff6998f328b5a40dddcca3d22f7e4b3d",
     "url": "/governace-app/index.html"
   },
   {
-    "revision": "d667b22205cea5681bb9",
+    "revision": "ffcbf67633b4a6956cd9",
     "url": "/governace-app/static/css/main.d28deb60.chunk.css"
   },
   {
-    "revision": "78b4e7dbbd056e94623f",
-    "url": "/governace-app/static/js/2.637b86c0.chunk.js"
+    "revision": "27e0cef371bbae9fc383",
+    "url": "/governace-app/static/js/2.c6f71547.chunk.js"
   },
   {
     "revision": "5ba18ce0143bcf4b3e82bfc225c31966",
-    "url": "/governace-app/static/js/2.637b86c0.chunk.js.LICENSE.txt"
+    "url": "/governace-app/static/js/2.c6f71547.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d667b22205cea5681bb9",
-    "url": "/governace-app/static/js/main.da7920be.chunk.js"
+    "revision": "ffcbf67633b4a6956cd9",
+    "url": "/governace-app/static/js/main.a2b5b0fe.chunk.js"
   },
   {
     "revision": "0b3751501b406d169d3e",
