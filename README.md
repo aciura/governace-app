@@ -1,8 +1,6 @@
 # Governance app
 
-![Governance App](https://raw.githubusercontent.com/aciura/governance-app/main/screenshot.jpg 'Screenshot of the Governance App')
-
-### Check out this project live on github pages https://aciura.github.io/governance-app/
+### Check out this project live on github pages https://aciura.github.io/governace-app/
 
 ### Checkout out my blog at https://cloudtech.pl
 
@@ -10,10 +8,14 @@
 
 Project is written in latest React JS using Hooks.
 
-Uses:
+This app uses:
 
-PowerPool Governance subgraph
-[TheGraph](https://thegraph.com/explorer/subgraph/powerpool-finance/powerpool-governance)
+- PowerPool Governance subgraph published on [TheGraph](https://thegraph.com/explorer/subgraph/powerpool-finance/powerpool-governance)
+- GraphQL
+
+### Screenshot
+
+![Governance App](https://raw.githubusercontent.com/aciura/governace-app/main/screenshot.jpg 'Screenshot of the Governance App')
 
 ### `npm start`
 
