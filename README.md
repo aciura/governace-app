@@ -2,8 +2,6 @@
 
 ### Check out this project live on github pages https://aciura.github.io/governace-app/
 
-### Checkout out my blog at https://cloudtech.pl
-
 # About the Source Code
 
 Project is written in latest React JS using Hooks.
